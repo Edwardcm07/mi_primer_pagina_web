@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <!-- normalize es el primer link que debe aparecer  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Esto es una funte de estilos desde google fonts -->
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">">
+    <!-- esta linea es la que hace que el navegador le de prioridad a cargar el estilo de css... es necesario guardar esta sintaxis para proximos proyectos, estar atento. -->
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- esta es la hoja de estilos de toda la vida -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Alejandro Cano <span>Freelancer</span></h1>
+    </header>
+
+    <div class="nav-bg">
+
+        <nav class="navegacion_principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contacto</a>
+         </nav>
+
+    </div>
+
+   <section class="hero">
+        <div class="contenido-hero">
+
+            <h2>Diseño y Desarrollo <span>Freelancer</span> </h2> 
+    
+            <!-- Me aparece demasiado codigo para poner una simple imagen debo buscar en google icons que quizas es una solución para esto, consultar el tema de los svg por otro lado -->
+            <div class="ubicacion"> 
+                <!-- se creo un div de ayuda para posicionar el elemento -->
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="50" height="50"
+                    viewBox="0 0 172 172"
+                    style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffc107"><path d="M85.87235,3.62813c-0.72195,0.0249 -1.41775,0.27642 -1.98875,0.71891l-79.12,61.7386c-1.49911,1.16886 -1.76683,3.33167 -0.59797,4.83078c1.16886,1.49911 3.33167,1.76683 4.83078,0.59797l4.76359,-3.71547v90.4411c0.00019,1.89978 1.54022,3.43981 3.44,3.44h47.58219c0.37149,0.0614 0.75054,0.0614 1.12203,0h40.15797c0.37149,0.0614 0.75054,0.0614 1.12203,0h47.61578c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-90.4411l4.7636,3.71547c0.96974,0.75623 2.26928,0.93763 3.40904,0.47586c1.13976,-0.46177 1.94657,-1.49654 2.11649,-2.71449c0.16992,-1.21795 -0.32287,-2.43403 -1.29273,-3.19012l-26.1964,-20.43844v-25.00719h-20.64v8.89562l-32.2836,-25.18859c-0.64007,-0.49632 -1.43474,-0.7509 -2.24406,-0.71891zM86,11.42859l65.36,51.00203v92.36937h-41.28v-65.36h-48.16v65.36h-41.28v-92.36937zM127.28,27.52h6.88v12.7589l-6.88,-5.375zM68.8,96.32h34.4v58.48h-34.4z"></path></g></g>
+                </svg>
+            </div>
+            <!-- .contenido-hero -->
+                    <p>Caldas, Antioquia, Colombia</p>
+                        <a class="boton" href="#">Contactar</a>
+
+        </div>
+
+    </section> 
+    
+    <main class="contenedor sombra"> 
+
+        <h2>Mis Servicios</h2>
+
+        <div class="servicios">
+
+    <section class="servicio">
+
+        <h3>Diseño web</h3>
+<div class="iconos">
+
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+        width="50" height="50"
+        viewBox="0 0 172 172"
+        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M148.35,6.88c-4.28656,0 -8.55969,1.67969 -11.825,4.945l-2.795,2.795l23.65,23.65c-0.01344,0.01344 2.795,-2.795 2.795,-2.795c6.54406,-6.54406 6.53063,-17.11937 0,-23.65c-3.27875,-3.26531 -7.53844,-4.945 -11.825,-4.945zM128.4625,20.7475c-0.77937,0.1075 -1.505,0.49719 -2.0425,1.075l-111.585,111.6925c-0.44344,0.40313 -0.77937,0.92719 -0.9675,1.505l-6.88,25.8c-0.30906,1.1825 0.04031,2.43219 0.90031,3.29219c0.86,0.86 2.10969,1.20938 3.29219,0.90031l25.8,-6.88c0.57781,-0.18812 1.10188,-0.52406 1.505,-0.9675l111.6925,-111.585c1.37063,-1.33031 1.38406,-3.52062 0.05375,-4.89125c-1.33031,-1.37062 -3.52062,-1.38406 -4.89125,-0.05375l-111.0475,111.0475l-13.975,-13.975l111.0475,-111.0475c1.03469,-0.99437 1.34375,-2.53969 0.76594,-3.85656c-0.57781,-1.31687 -1.90812,-2.13656 -3.34594,-2.05594c-0.1075,0 -0.215,0 -0.3225,0z"></path></g></g>
+    </svg>
+</div>
+       
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel mollitia, amet obcaecati ipsum corporis veritatis corrupti aliquid sed blanditiis saepe accusamus veniam, ipsam nisi sunt dolorum! Magni deleniti iure animi?
+        </p>
+
+    </section>
+       
+    <section class="servicio">
+        <h3>Aplicaciones Web</h3>
+
+        <div class="iconos">
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                 width="50" height="50"
+                 viewBox="0 0 172 172"
+                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M30.96,13.76c-9.45834,0 -17.2,7.74166 -17.2,17.2v110.08c0,9.45834 7.74166,17.2 17.2,17.2h110.08c9.45834,0 17.2,-7.74166 17.2,-17.2v-110.08c0,-9.45834 -7.74166,-17.2 -17.2,-17.2zM30.96,20.64h110.08c5.73958,0 10.32,4.58042 10.32,10.32v110.08c0,5.73958 -4.58042,10.32 -10.32,10.32h-110.08c-5.73958,0 -10.32,-4.58042 -10.32,-10.32v-110.08c0,-5.73958 4.58042,-10.32 10.32,-10.32zM49.88,34.4c-6.60876,0 -12.04,5.43124 -12.04,12.04c0,6.60876 5.43124,12.04 12.04,12.04c6.60876,0 12.04,-5.43124 12.04,-12.04c0,-6.60876 -5.43124,-12.04 -12.04,-12.04zM79.12,34.4c-7.55869,0 -13.76,6.20131 -13.76,13.76c0,7.55869 6.20131,13.76 13.76,13.76c7.55869,0 13.76,-6.20131 13.76,-13.76c0,-7.55869 -6.20131,-13.76 -13.76,-13.76zM113.52,34.4c-9.45855,0 -17.2,7.74145 -17.2,17.2c0,9.45855 7.74145,17.2 17.2,17.2c9.45855,0 17.2,-7.74145 17.2,-17.2c0,-9.45855 -7.74145,-17.2 -17.2,-17.2zM49.88,41.28c2.89054,0 5.16,2.26946 5.16,5.16c0,2.89054 -2.26946,5.16 -5.16,5.16c-2.89054,0 -5.16,-2.26946 -5.16,-5.16c0,-2.89054 2.26946,-5.16 5.16,-5.16zM79.12,41.28c3.84046,0 6.88,3.03954 6.88,6.88c0,3.84046 -3.03954,6.88 -6.88,6.88c-3.84046,0 -6.88,-3.03954 -6.88,-6.88c0,-3.84046 3.03954,-6.88 6.88,-6.88zM113.52,41.28c5.74032,0 10.32,4.57968 10.32,10.32c0,5.74032 -4.57968,10.32 -10.32,10.32c-5.74032,0 -10.32,-4.57968 -10.32,-10.32c0,-5.74032 4.57968,-10.32 10.32,-10.32zM48.16,65.36c-9.22578,0 -17.2,6.70562 -17.2,15.48v25.8c0.00019,1.89978 1.54022,3.43981 3.44,3.44h20.64v3.81625v6.50375c0.00019,1.89978 1.54022,3.43981 3.44,3.44h24.08v10.32c0.00019,1.89978 1.54022,3.43981 3.44,3.44h51.6c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-30.96c0,-15.29102 -13.25629,-27.52 -29.24,-27.52c-5.79639,0 -11.00807,1.90132 -15.56735,4.66281c-1.21405,-2.09722 -2.23178,-4.35255 -4.03797,-5.9461c-3.93729,-3.4804 -9.14025,-5.59672 -14.79469,-5.59672c-5.32119,0 -9.82977,2.31734 -13.67265,5.44219c-2.79203,-5.3352 -8.83991,-8.88219 -15.56735,-8.88219zM48.16,72.24c5.82133,0 10.10571,3.90993 10.31328,8.25735c0.0722,1.47109 1.07283,2.73303 2.48873,3.13866c1.4159,0.40563 2.93295,-0.13505 3.77314,-1.34476c2.76806,-3.99206 7.38473,-6.61125 12.66485,-6.61125c3.94799,0 7.51045,1.46321 10.23937,3.87672c0.00224,0 0.00448,0 0.00672,0c1.93681,1.70879 3.43876,3.89615 4.32687,6.36938c0.37402,1.04151 1.22622,1.83952 2.29002,2.14442c1.0638,0.30489 2.20933,0.07945 3.07826,-0.60582c3.85722,-3.04014 8.90327,-4.90469 14.45875,-4.90469c12.51325,0 22.36,9.33294 22.36,20.64v27.52h-44.72v-10.32c-0.00019,-1.89978 -1.54022,-3.43981 -3.44,-3.44h-0.1075h-23.9725v-3.06375v-7.25625c-0.00019,-1.89978 -1.54022,-3.43981 -3.44,-3.44h-20.64v-22.36c0,-4.52466 4.34786,-8.6 10.32,-8.6z"></path></g></g>
+             </svg>
+        </div>
+        
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel mollitia, amet obcaecati ipsum corporis veritatis corrupti aliquid sed blanditiis saepe accusamus veniam, ipsam nisi sunt dolorum! Magni deleniti iure animi?
+        </p> 
+    </section>
+        
+    <section class="servicio">
+        <h3>E-commerce</h3>
+
+        <div class="iconos">
+
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="50" height="50"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#000000"><path d="M13.76,13.76v141.04c0.00019,1.89978 1.54022,3.43981 3.44,3.44h137.6c1.89978,-0.00019 3.43981,-1.54022 3.44,-3.44v-44.72h-6.88v41.28h-130.72v-137.6zM130.6864,17.16641c-1.39982,0.00037 -2.65984,0.84884 -3.18658,2.14577c-0.52674,1.29693 -0.21516,2.7837 0.78799,3.76001l14.76781,14.76781h-22.56828c-34.49188,-0.8584 -56.84315,8.23873 -69.93547,25.45063c-13.09232,17.21189 -16.73117,41.65328 -16.15187,70.93656c0.03711,1.89986 1.60733,3.40992 3.50719,3.37281c1.89986,-0.03711 3.40992,-1.60733 3.37281,-3.50719c-0.56622,-28.62224 3.20614,-51.46344 14.74765,-66.63656c11.54152,-15.17313 31.04672,-23.56345 64.285,-22.73625h0.04703h22.69594l-14.76781,14.76781c-0.89867,0.86281 -1.26068,2.14404 -0.94641,3.34956c0.31427,1.20552 1.2557,2.14696 2.46122,2.46122c1.20552,0.31427 2.48675,-0.04774 3.34956,-0.94641l23.07219,-23.07219l-23.07219,-23.07219c-0.64765,-0.66575 -1.53698,-1.04135 -2.46578,-1.04141z"></path></g></g>
+            </svg>
+        </div>
+          
+        <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel mollitia, amet obcaecati ipsum corporis veritatis corrupti aliquid sed blanditiis saepe accusamus veniam, ipsam nisi sunt dolorum! Magni deleniti iure animi?
+        </p> 
+    </section>  
+
+    </div><!--cierre de la clase de servicios  -->
+              
+        <section>
+
+            <h2>Contacto</h2>
+
+                <form class="formulario">
+                    <fieldset>
+
+                        <legend>Contactanos llenando todos los campos</legend>
+<div class="contenedor-campos">
+    
+                <div class="campo">
+                    <label>Nombre</label>
+                        <input class="input-text" type="text" placeholder="Tu Nombre"/>
+                </div>
+
+                <div class="campo">
+                    <label>Telefono</label>
+                        <input class="input-text" type="tel" placeholder="Tu Telefono"/>
+                </div>
+
+                <div class="campo">
+                    <label>e-mail</label>
+                        <input class="input-text" type="email" placeholder="Tu Correo"/>
+                </div>
+
+                <div class="campo">
+                    <label>Mensaje</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+                <div class="derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Enviar">
+                </div>
+
+                                                 
+                    </fieldset>
+
+                </form>
+        </section>
+    </main> 
+        <footer class="footer">
+            <p>Todos los derechos reservados</p>
+        </footer>
+    
+</body>
+</html>
